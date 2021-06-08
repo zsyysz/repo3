@@ -1,0 +1,62 @@
+.header .sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding-left: 14px;
+    padding-top: 3px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700px;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '';
+    font-family: 'icomoon';
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.sk_bd ul li {
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 290px;
+    height: 460px;
+    background-color: pink;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
